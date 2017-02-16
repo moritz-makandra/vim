@@ -13,3 +13,7 @@ nmap <silent> <leader>n :NERDTreeToggle<CR>
 nmap <silent> <leader>s :call ToggleSyntax()<CR>
 nmap <silent> <leader>l :set list!<CR>
 
+nnoremap <leader>er :vsplit $MYVIMRC<CR>
+nnoremap <leader>em :vsplit ~/.vim/mappings.vim<CR>
+nnoremap <leader>ep :vsplit ~/.vim/plugins.vim<CR>
+
