@@ -1,4 +1,10 @@
 ""
+" APPEARANCE
+"
+set background=dark
+syntax on
+
+""
 " Vundle
 "
 set nocompatible              " be iMproved, required
