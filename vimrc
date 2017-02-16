@@ -5,15 +5,9 @@ set background=dark
 syntax on
 
 ""
-" Vundle
+" load my functions
 "
-set nocompatible              " be iMproved, required
-filetype off                  " required
-set rtp+=~/.vim/Vundle.vim
-call vundle#begin( '~/.vim/plugins' )
+so ~/.vim/plugins.vim
+so ~/.vim/functions/*.vim
+so ~/.vim/mappings.vim
 
-Plugin 'scrooloose/nerdtree'
-
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
