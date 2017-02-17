@@ -18,3 +18,18 @@ so ~/.vim/plugins.vim
 so ~/.vim/functions/*.vim
 so ~/.vim/mappings.vim
 
+""
+" Spaces and Tabs
+"
+set tabstop=8
+set softtabstop=8
+set shiftwidth=8
+set noexpandtab
+
+""
+" UI
+"
+set cursorline
+set wildmenu
+set incsearch
+set hlsearch
