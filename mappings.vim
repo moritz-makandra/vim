@@ -10,11 +10,16 @@ imap <silent> <C-k>	<esc>:,m.-2<CR>i
 imap <silent> <C-j> <esc>:,m.+1<CR>i
 
 nmap <silent> <leader>n :NERDTreeToggle<CR>
-nmap <silent> <leader>s :call ToggleSyntax()<CR>
 nmap <silent> <leader>l :set list!<CR>
 
 nnoremap <leader>er :vsplit $MYVIMRC<CR>
 nnoremap <leader>em :vsplit ~/.vim/mappings.vim<CR>
 nnoremap <leader>ep :vsplit ~/.vim/plugins.vim<CR>
+
+" highlighting
+nmap <silent> <leader>hs :call ToggleSyntax()<CR>
+
+" search
+nnoremap <leader>sh :set hlsearch!<CR>
 
 inoremap jk <esc>
