@@ -12,6 +12,9 @@ Plugin 'airblade/vim-gitgutter'
 let g:gitgutter_realtime = 1
 set updatetime=250
 
+Plugin 'momota/cisco.vim'
+Plugin 'gabrielelena/vim-markdown'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
