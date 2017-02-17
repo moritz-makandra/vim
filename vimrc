@@ -4,6 +4,8 @@
 set background=dark
 syntax on
 
+set showbreak=↪
+
 ""
 " load my functions
 "
