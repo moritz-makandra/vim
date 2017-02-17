@@ -6,6 +6,8 @@ syntax on
 
 set showbreak=↪
 
+set laststatus	=2
+
 ""
 " load my functions
 "
