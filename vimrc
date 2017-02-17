@@ -1,8 +1,13 @@
 ""
 " APPEARANCE
 "
-set background=dark
+
 syntax on
+set background=dark
+
+" enable status bar on one buffer windows
+set laststatus=2
+
 
 set showbreak=↪
 
