@@ -15,6 +15,12 @@ set updatetime=250
 Plugin 'momota/cisco.vim'
 Plugin 'gabrielelana/vim-markdown'
 
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+"set c_Co=256
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme = 'badwolf'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
