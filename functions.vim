@@ -13,12 +13,14 @@ function! ToggleHUD()
 		set noshowmode
 		set noruler
 		set noshowcmd
+		GitGutterDisable
 	else
 		let s:hud_is_hidden=0
 		set laststatus=2
 		set showmode
 		set ruler
 		set showcmd
+		GitGutterEnable
 	end
 
 endfunction
