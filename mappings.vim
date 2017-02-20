@@ -9,7 +9,9 @@ nmap <silent> <C-j> :,m.+1<CR>
 imap <silent> <C-k>	<esc>:,m.-2<CR>i
 imap <silent> <C-j> <esc>:,m.+1<CR>i
 
-nmap <silent> <leader>n :NERDTreeToggle<CR>
+nmap <silent> <leader>tn :NERDTreeToggle<CR>
+nmap <silent> <leader>ts :call ToggleSyntax()<CR>
+nmap <silent> <leader>tt :call  ToggleHUD()<CR>
 nmap <silent> <leader>l :set list!<CR>
 
 nnoremap <leader>er :vsplit $MYVIMRC<CR>

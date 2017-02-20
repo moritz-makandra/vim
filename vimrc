@@ -11,12 +11,14 @@ set laststatus=2
 
 set showbreak=↪
 
+set laststatus	=2
+
 ""
-" load my functions
+" load my vimscripts 
 "
-so ~/.vim/plugins.vim
-so ~/.vim/functions/*.vim
-so ~/.vim/mappings.vim
+source ~/.vim/plugins.vim
+source ~/.vim/functions.vim
+source ~/.vim/mappings.vim
 
 ""
 " Spaces and Tabs
