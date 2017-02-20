@@ -21,6 +21,11 @@ Plugin 'vim-airline/vim-airline-themes'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme = 'badwolf'
 
+Plugin 'nathanaelkane/vim-indent-guides'
+
+let g:indent_guides_start_level = 2
+:IndentGuidesEnable
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
