@@ -32,3 +32,6 @@ vnoremap jk <esc>
 " don't jump over wrapped lines
 noremap j gj
 noremap k gk
+
+nnoremap <C-h>	:bprev<CR>
+nnoremap <C-l>	:bnext<CR>
