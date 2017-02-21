@@ -27,3 +27,7 @@ nmap <silent> <leader>hs :call ToggleSyntax()<CR>
 nnoremap <leader>sh :set hlsearch!<CR>
 
 inoremap jk <esc>
+
+" don't jump over wrapped lines
+noremap j gj
+noremap k gk
