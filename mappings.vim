@@ -14,6 +14,7 @@ nmap <silent> <leader>ts :call ToggleSyntax()<CR>
 nmap <silent> <leader>tt :call  ToggleHUD()<CR>
 nmap <silent> <leader>tl :set list!<CR>
 nmap <silent> <leader>tp :set paste!<CR>
+nmap <silent> <leader>tw :set wrap!<CR>
 
 nnoremap <leader>ef :vsplit ~/.vim/functions.vim<CR>
 nnoremap <leader>er :vsplit $MYVIMRC<CR>
