@@ -9,11 +9,11 @@ nmap <silent> <C-j> :,m.+1<CR>
 imap <silent> <C-k>	<esc>:,m.-2<CR>i
 imap <silent> <C-j> <esc>:,m.+1<CR>i
 
-nmap <silent> <leader>tn :NERDTreeToggle<CR>
-nmap <silent> <leader>ts :call ToggleSyntax()<CR>
-nmap <silent> <leader>tt :call  ToggleHUD()<CR>
+nmap <silent> <leader>th :call  ToggleHUD()<CR>
 nmap <silent> <leader>tl :set list!<CR>
+nmap <silent> <leader>tn :NERDTreeToggle<CR>
 nmap <silent> <leader>tp :set paste!<CR>
+nmap <silent> <leader>ts :call ToggleSyntax()<CR>
 nmap <silent> <leader>tw :set wrap!<CR>
 
 nnoremap <leader>ef :vsplit ~/.vim/functions.vim<CR>
