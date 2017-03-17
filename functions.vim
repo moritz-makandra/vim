@@ -6,7 +6,6 @@ let s:hud_is_hidden=0
 function! ToggleHUD()
 
 	AirlineToggle
-	IndentGuidesToggle
 
 	if s:hud_is_hidden == 0 
 		let s:hud_is_hidden=1
