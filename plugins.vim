@@ -22,6 +22,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme = 'badwolf'
 
 Plugin 'tpope/vim-fugitive'
+Plugin 'rodjek/vim-puppet'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
