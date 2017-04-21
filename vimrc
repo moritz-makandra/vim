@@ -35,3 +35,5 @@ set cursorline
 set wildmenu
 set incsearch
 set hlsearch
+
+au BufNewFile,BufRead *.yaml,*.yml setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
