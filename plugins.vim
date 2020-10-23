@@ -24,6 +24,7 @@ let g:airline_theme = 'badwolf'
 Plugin 'tpope/vim-fugitive'
 Plugin 'rodjek/vim-puppet'
 
+Plugin 'scrooloose/syntastic'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
