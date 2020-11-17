@@ -30,5 +30,7 @@ let g:ale_fixers = {
 
 highlight ALEWarning ctermbg=DarkMagenta
 
+Plug 'tpope/vim-surround'
+
 " Initialize plugin system
 call plug#end()
