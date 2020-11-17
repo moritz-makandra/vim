@@ -26,8 +26,11 @@ Plugin 'rodjek/vim-puppet'
 
 Plugin 'ntpeters/vim-better-whitespace'
 
-Plugin 'scrooloose/syntastic'
-let g:syntastic_yaml_checkers = ['yamllint']
-" All of your Plugins must be added before the following line
+let g:ale_completion_enabled = 1
+Plugin 'dense-analysis/ale'
+let g:ale_fixers = {
+			\  '*': ['remove_trailing_lines', 'trim_whitespace'],
+\}
+
 call vundle#end()            " required
 filetype plugin indent on    " required
