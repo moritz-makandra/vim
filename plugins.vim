@@ -20,6 +20,7 @@ Plugin 'vim-airline/vim-airline-themes'
 "set c_Co=256
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme = 'badwolf'
+let g:airline_powerline_fonts = 1
 
 Plugin 'tpope/vim-fugitive'
 Plugin 'rodjek/vim-puppet'
@@ -35,4 +36,5 @@ let g:ale_fixers = {
 highlight ALEWarning ctermbg=DarkMagenta
 
 call vundle#end()            " required
+filetype on
 filetype plugin indent on    " required
