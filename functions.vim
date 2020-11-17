@@ -35,3 +35,8 @@ function! ToggleSyntax()
 		syntax enable
 	endif
 endfunction
+
+function! UpdateHunspell()
+	mkspell ~/.vim/spell/hunspell-de /usr/share/hunspell/de_DE
+	mkspell ~/.vim/spell/hunspell-en /usr/share/hunspell/en_US
+endfunction
