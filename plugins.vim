@@ -32,5 +32,7 @@ let g:ale_fixers = {
 			\  '*': ['remove_trailing_lines', 'trim_whitespace'],
 \}
 
+highlight ALEWarning ctermbg=DarkMagenta
+
 call vundle#end()            " required
 filetype plugin indent on    " required
