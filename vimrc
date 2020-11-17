@@ -41,3 +41,4 @@ au BufNewFile,BufRead *.yaml,*.yml setlocal tabstop=2 expandtab shiftwidth=2 sof
 set listchars=tab:»-,extends:›,precedes:‹,nbsp:·,space:·,eol:$
 
 set spelllang=en,de,hunspell-en,hunspell-de
+set spell
