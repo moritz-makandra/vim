@@ -1,40 +1,34 @@
-""
-" Vundle
-"
-set nocompatible              " be iMproved, required
-filetype off                  " required
-set rtp+=~/.vim/Vundle.vim
-call vundle#begin( '~/.vim/plugins' )
+call plug#begin('~/.vim/plugged')
 
-Plugin 'scrooloose/nerdtree'
-Plugin 'AndrewRadev/switch.vim'
-Plugin 'airblade/vim-gitgutter'
+Plug 'scrooloose/nerdtree'
+Plug 'AndrewRadev/switch.vim'
+
+Plug 'airblade/vim-gitgutter'
 let g:gitgutter_realtime = 1
 set updatetime=250
 
-Plugin 'momota/cisco.vim'
-Plugin 'gabrielelana/vim-markdown'
+Plug 'momota/cisco.vim'
+Plug 'gabrielelana/vim-markdown'
 
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 "set c_Co=256
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme = 'badwolf'
 let g:airline_powerline_fonts = 1
 
-Plugin 'tpope/vim-fugitive'
-Plugin 'rodjek/vim-puppet'
+Plug 'tpope/vim-fugitive'
+Plug 'rodjek/vim-puppet'
 
-Plugin 'ntpeters/vim-better-whitespace'
+Plug 'ntpeters/vim-better-whitespace'
 
 let g:ale_completion_enabled = 1
-Plugin 'dense-analysis/ale'
+Plug 'dense-analysis/ale'
 let g:ale_fixers = {
 			\  '*': ['remove_trailing_lines', 'trim_whitespace'],
 \}
 
 highlight ALEWarning ctermbg=DarkMagenta
 
-call vundle#end()            " required
-filetype on
-filetype plugin indent on    " required
+" Initialize plugin system
+call plug#end()
