@@ -15,6 +15,7 @@ nmap <silent> <leader>tn :NERDTreeToggle<CR>
 nmap <silent> <leader>tp :set paste!<CR>
 nmap <silent> <leader>ts :call ToggleSyntax()<CR>
 nmap <silent> <leader>tw :set wrap!<CR>
+nmap <silent> <leader>tr :set spell!<CR>
 
 nnoremap <leader>ef :vsplit ~/.vim/functions.vim<CR>
 nnoremap <leader>er :vsplit $MYVIMRC<CR>
