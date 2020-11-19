@@ -10,9 +10,6 @@ set updatetime=250
 Plug 'momota/cisco.vim'
 Plug 'gabrielelana/vim-markdown'
 
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-"set c_Co=256
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme = 'badwolf'
 let g:airline_powerline_fonts = 1
