@@ -3,3 +3,7 @@ vimrc.bak
 .netrwhist
 *.swp
 plugged
+autoload
+spell
+plugin
+doc
