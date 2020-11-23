@@ -36,8 +36,6 @@ set wildmenu
 set incsearch
 set hlsearch
 
-au BufNewFile,BufRead *.yaml,*.yml setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
-
 set listchars=tab:»-,extends:›,precedes:‹,nbsp:·,space:·,eol:$
 
 set spelllang=en,de,hunspell-en,hunspell-de
