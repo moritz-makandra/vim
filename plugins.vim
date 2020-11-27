@@ -29,6 +29,7 @@ let g:ale_fixers = {
 highlight ALEWarning ctermbg=DarkMagenta
 
 Plug 'tpope/vim-surround'
+Plug 'wincent/terminus'
 
 " Initialize plugin system
 call plug#end()
