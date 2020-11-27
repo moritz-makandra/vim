@@ -38,7 +38,7 @@ set hlsearch
 
 set listchars=tab:»-,extends:›,precedes:‹,nbsp:·,space:·,eol:$
 
-set spelllang=en,de,hunspell-en,hunspell-de
+set spelllang=en,de
 set spell
 
 set modeline
