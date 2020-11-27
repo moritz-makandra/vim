@@ -42,3 +42,4 @@ set spelllang=en,de
 set spell
 
 set modeline
+colorscheme medic_chalk
