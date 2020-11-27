@@ -22,6 +22,10 @@ nnoremap <leader>er :vsplit $MYVIMRC<CR>
 nnoremap <leader>em :vsplit ~/.vim/mappings.vim<CR>
 nnoremap <leader>ep :vsplit ~/.vim/plugins.vim<CR>
 
+" buffer navigation
+nmap <leader>bk :bnext<CR>
+nmap <leader>bj :prev<CR>
+
 " highlighting
 nmap <silent> <leader>hs :call ToggleSyntax()<CR>
 
