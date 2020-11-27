@@ -20,16 +20,10 @@ Plug 'rodjek/vim-puppet'
 
 Plug 'ntpeters/vim-better-whitespace'
 
-let g:ale_completion_enabled = 1
-Plug 'dense-analysis/ale'
-let g:ale_fixers = {
-			\  '*': ['remove_trailing_lines', 'trim_whitespace'],
-\}
-
-highlight ALEWarning ctermbg=DarkMagenta
 
 Plug 'tpope/vim-surround'
 Plug 'wincent/terminus'
+Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}} " Language Server support
 
 " Initialize plugin system
 call plug#end()

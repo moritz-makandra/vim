@@ -1,0 +1,21 @@
+{
+  "languageserver": {
+    "puppet": {
+       	"command": "ruby",
+	"args": ["/home/moritz/Projects/puppet-editor-services/puppet-languageserver","--stdio","--puppet-settings=--moduledir,/home/moritz/.puppetlabs/etc/code/modules/"],
+        "cwd": "/home/moritz/Projects/puppet-editor-services",
+        "filetypes": ["puppet"],
+        "rootPatterns": [".git/", "metadata.json"]
+    },
+    "bash": {
+      "command": "bash-language-server",
+      "args": ["start"],
+      "filetypes": ["sh"],
+      "ignoredRootPaths": ["~"]
+    }
+  },
+  "diagnostic-languageserver.filetypes": {
+    "sh": "shellcheck"
+  },
+  "diagnostic.checkCurrentLine": true
+}
