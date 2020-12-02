@@ -19,6 +19,7 @@ set laststatus	=2
 source ~/.vim/plugins.vim
 source ~/.vim/functions.vim
 source ~/.vim/mappings.vim
+source ~/.vim/keys.vim
 
 ""
 " Spaces and Tabs

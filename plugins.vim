@@ -16,6 +16,9 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#cursormode#enabled = 0
 
 Plug 'tpope/vim-fugitive'
+Plug 'shumphrey/fugitive-gitlab.vim'
+let g:fugitive_gitlab_domains = ['https://code.makandra.de']
+
 Plug 'rodjek/vim-puppet'
 
 Plug 'ntpeters/vim-better-whitespace'
