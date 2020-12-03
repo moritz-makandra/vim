@@ -28,5 +28,9 @@ Plug 'tpope/vim-surround'
 Plug 'wincent/terminus'
 Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}} " Language Server support
 
+
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
 " Initialize plugin system
 call plug#end()
