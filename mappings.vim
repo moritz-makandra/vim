@@ -41,3 +41,11 @@ noremap k gk
 
 nnoremap <C-h>	:bprev<CR>
 nnoremap <C-l>	:bnext<CR>
+" fuzzy finder Mappings
+nmap <leader>fo :Files<CR>
+nmap <leader>ff :Files<CR>
+nmap <leader>fO :Files!<CR>
+nmap <leader>fh :History<CR>
+nmap <leader>fl :BLines<CR>
+nmap <leader>fL :BLines!<CR>
+nmap <leader>fb :Buffers<CR>
