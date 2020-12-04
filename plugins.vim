@@ -7,7 +7,6 @@ Plug 'airblade/vim-gitgutter'
 let g:gitgutter_realtime = 1
 set updatetime=250
 
-Plug 'momota/cisco.vim'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 
