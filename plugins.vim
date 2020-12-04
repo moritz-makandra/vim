@@ -8,7 +8,7 @@ let g:gitgutter_realtime = 1
 set updatetime=250
 
 Plug 'momota/cisco.vim'
-Plug 'gabrielelana/vim-markdown'
+Plug 'plasticboy/vim-markdown'
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme = 'badwolf'
