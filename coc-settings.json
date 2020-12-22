@@ -15,7 +15,13 @@
     }
   },
   "diagnostic-languageserver.filetypes": {
-    "sh": "shellcheck"
+    "sh": "shellcheck",
+    "ruby": "rubocop"
   },
-  "diagnostic.checkCurrentLine": true
+  "diagnostic.checkCurrentLine": true,
+  "codeLens.enable": true,
+  "solargraph.diagnostics": true,
+  "solargraph.autoformat": true,
+  "solargraph.formatting": true,
+  "solargraph.hover": true
 }
