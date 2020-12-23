@@ -49,3 +49,11 @@ nmap <leader>fh :History<CR>
 nmap <leader>fl :BLines<CR>
 nmap <leader>fL :BLines!<CR>
 nmap <leader>fb :Buffers<CR>
+
+" don't screw up typing point instead of colon
+"
+nmap <silent> .w :set statusline='💣💥'<CR>
+nmap <silent> .q :set statusline='💣💥'<CR>
+
+nmap <silent> öw :set write<CR>
+nmap <silent> öx :set x<CR>
