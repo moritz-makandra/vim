@@ -7,3 +7,6 @@ set softtabstop=2
 
 highlight EmptyLines ctermbg=yellow
 match EmptyLines /^$/
+
+setlocal ts=2 sts=2 sw=2 expandtab
+setlocal nofoldenable
