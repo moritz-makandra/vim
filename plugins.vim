@@ -33,5 +33,6 @@ Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}} " Language Server sup
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+Plug 'pedrohdz/vim-yaml-folds'
 " Initialize plugin system
 call plug#end()
