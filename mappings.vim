@@ -57,3 +57,5 @@ nmap <silent> .q :set statusline='💣💥'<CR>
 
 nmap <silent> öw :set write<CR>
 nmap <silent> öx :set x<CR>
+
+command Glp Glog production..
